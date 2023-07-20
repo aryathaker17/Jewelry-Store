@@ -1,0 +1,126 @@
+body{
+    background-color: #B49594;
+    color: #dce3e8;
+    font-size: 15pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+
+
+
+
+#container{
+    width: 80%;
+    margin: auto;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+    width: 150;
+    height: 150;
+    padding: 10px 0px;
+}
+
+nav{
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul{
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 40px;
+
+    position: relative;
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #d5dfe5;
+
+    transition: all ease-in-out 180ms;
+    
+    position: absolute;
+    top: 1em;
+    width: 0%;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+a[href]{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:link{
+    color: #d5dfe5;
+}
+
+a:hover{
+    color: black;
+}
+
+a:active{
+    color: orange;
+}
+a:visited{
+    color: #d5dfe5;
+}
+
+td {
+    border: 3px outset #dce3e8;
+    padding: .2em .5em .2em .80em;
+
+}
+#jewls{
+    text-align: center;
+}
+
+footer{
+    position:absolute;
+    bottom: 0;
+    font-size: 12pt;
+}
+
+#cats ul li{
+    margin-right: 80pt;
+    padding-bottom: 30pt;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+
+#log{
+    text-align: center;
+}
+
+#login_form{
+    text-align: center;
+}
+#message{
+    text-align: center;
+}

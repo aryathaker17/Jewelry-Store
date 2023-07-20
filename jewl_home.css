@@ -1,0 +1,171 @@
+body{
+    background-color: #B49594;
+    color: #d5dfe5;
+}
+
+#Store{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    width: 40%;
+    padding: 2em 2em 1em;
+    text-align: center;
+    font-size: 24pt;
+    padding-top: 8%;
+}
+
+#container{
+    width: 80%;
+    margin: auto;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+    width: 150;
+    height: 150;
+    padding: 10px 0px;
+}
+
+nav{
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15pt;
+}
+
+nav ul{
+   
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 20px;
+
+    position: relative;
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #d5dfe5;
+
+    transition: all ease-in-out 180ms;
+    
+    position: absolute;
+    top: 0;
+    width: 0%;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+#store_description{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+    width: auto;
+}
+
+
+#top_sellers{
+   margin-top: 2em;
+   text-align: center;
+}
+
+#pics {   
+    justify-content: space-between;
+    margin-top:0px;
+    margin-left:10%; 
+    margin-right: auto;
+
+     text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+#pics a {
+    vertical-align: top;
+    display: inline-block;
+    display: inline;
+    zoom: 1;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+#figcap1{
+    position: absolute;
+    top: 55em;
+    right: 93.5em;
+    font-size: 10pt;
+    
+}
+
+#figcap2{
+    position: absolute;
+    top: 55em;
+    right: 67em;
+    font-size: 10pt;
+}
+
+#figcap3{
+    position: absolute;
+    top: 55em;
+    right: 45em;
+    font-size: 10pt;
+}
+
+#figcap4{
+    position: absolute;
+    top: 55em;
+    right: 24em;
+    font-size: 10pt;
+}
+
+a[href]{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:link{
+    color: #d5dfe5;
+}
+
+a:hover, a:focus{
+    color: #556f7a;
+}
+
+a:active{
+    color: orange;
+}
+a:visited{
+    color: #d5dfe5;
+}
+
+main{
+    display: flex;
+}
+
+footer{
+    position:absolute;
+    bottom: 0;
+    font-size: 12pt;
+}

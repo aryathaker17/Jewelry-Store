@@ -1,0 +1,71 @@
+body{
+    background-color: #B49594;
+    font-family: 'Trebuchet MS';
+}
+
+#label{
+    color: #d5dfe5;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+main{
+    background-color: white;
+    margin: auto 450pt auto;
+    width: 500px;
+    font-family: 'Trebuchet MS';
+    
+}
+
+#From{
+    float: left;
+}
+
+#ship_to{
+    font-size: 16pt;
+}
+#addy{
+   display:inline-flex ;
+   margin-left: 0.1em;
+}
+
+#d{
+    width: 50%;
+    margin-left: 10em;
+    padding-top: 6em;
+}
+#dimensions
+{
+    float: right;
+    padding-right: 2em;
+    padding-top: 1em;
+    margin-right: 8%;
+}
+
+#class_and_carrier{
+    background-color: black;
+    color: azure;
+    width: auto;
+}
+
+img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
+
+}
+
+hr {
+    height:5px;
+    border-width:0;
+    background-color: black;
+  }
+
+  footer{
+    font-family: 'Trebuchet MS';
+    color: #d5dfe5;
+    position:absolute;
+    bottom: 0;
+    font-size: 12pt;
+}
